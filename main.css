@@ -1,1 +1,39 @@
+    
+    
+    .calculatorbody{
+        max-width: 500px;
+        max-height: 500px;
+        background-color: greenyellow;
+    }
 
+    .calculatortable{
+        width: 500px;
+        height: 500px;
+        background-color:green;
+        margin-left: 450px;
+        margin-top: 200px;
+    }
+
+    .cbutton{
+        font-size: 30%;
+        font-weight: bold;
+    }
+
+    input[type="button"] 
+    { 
+    background-color:green; 
+    color: white; 
+    border: white 1px; 
+    border-style: solid;
+    width:100px;;
+    height: 100%
+    } 
+
+    input[type="text"] 
+    { 
+    background-color:white; 
+    border: white 2px; 
+    border-style: solid;
+    width:100% ;
+    height: 100%
+    } 
