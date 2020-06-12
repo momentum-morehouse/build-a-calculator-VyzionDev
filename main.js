@@ -1,6 +1,6 @@
 
 
- function dis(value) 
+ function compute(value) 
  { 
      document.getElementById("result").value+=value
  } 
@@ -15,7 +15,7 @@
   //solves the logic
    
 
- function clr() 
+ function clear() 
  { 
      document.getElementById("result").value = "" 
  } 
