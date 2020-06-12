@@ -1,11 +1,54 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>repl.it</title>
+        <link href="main.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <script src="main.js">
+        </script>
+    </head>
+    <body> 
+        <div class = calculatorbody></div> 
+        <table class="calculatortable" border="1"> 
+           <tr> 
+            <td><input type="button" value="c" onclick="clear()"/> </td> 
+              <td colspan="3"><input type="text" id="result"/></td> 
+           </tr> 
+           <tr> 
+              <td class="cbutton"><input type="button" value="1" onclick="compute('1')"/> </td> 
+              <td class="cbutton"><input type="button" value="2" onclick="compute('2')"/> </td> 
+              <td class="cbutton"><input type="button" value="3" onclick="compute('3')"/> </td> 
+              <td class="cbutton"><input type="button" value="/" onclick="compute('/')"/> </td> 
+              <td class="cbutton"><input type="button" value="^" onclick="compute('^')"/> </td> 
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
-	<link href="main.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-	<script src="main.js">
-	</script>
-</head>
+           </tr> 
+           <tr> 
+              <td class="cbutton"><input type="button" value="4" onclick="compute('4')"/> </td> 
+              <td class="cbutton"><input type="button" value="5" onclick="compute('5')"/> </td> 
+              <td class="cbutton"><input type="button" value="6" onclick="compute('6')"/> </td> 
+              <td class="cbutton"><input type="button" value="-" onclick="compute('-')"/> </td> 
+              <td class="cbutton"><input type="button" value="%" onclick="compute('%')"/> </td> 
+
+           </tr> 
+           <tr> 
+              <td class="cbutton"><input type="button" value="7" onclick="compute('7')"/> </td> 
+              <td class="cbutton"><input type="button" value="8" onclick="compute('8')"/> </td> 
+              <td class="cbutton"><input type="button" value="9" onclick="compute('9')"/> </td> 
+              <td class="cbutton"><input type="button" value="+" onclick="compute('+')"/> </td>
+              <td class="cbutton"><input type="button" value="(" onclick="compute('(')"/> </td> 
+ 
+           </tr> 
+           <tr> 
+              <td class="cbutton"><input type="button" value="." onclick="compute('.')"/> </td> 
+              <td class="cbutton"><input type="button" value="0" onclick="compute('0')"/> </td> 
+              <td class="cbutton"><input type="button" value="=" onclick="solve()"/> </td> 
+              <td class="cbutton"><input type="button" value="*" onclick="compute('*')"/> </td>
+              <td class="cbutton"><input type="button" value=")" onclick="compute(')')"/> </td> 
+
+           </tr> 
+        </table> 
+     </body> 
+  </html>    
+</html>
